@@ -1,0 +1,64 @@
+
+#navbox #navbar {
+    display: flex;
+}
+
+#navbox #navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+#navbox #navbar ul li {
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
+#navbox #navbar #pagelogo {
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+#navbox {
+    background-color: #A1CFDD;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+}
+
+#navbox .navlinks {
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#navbox #logoutLink {
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+    right: 5%;
+}
+
+body {
+    margin-left: 3%;
+    margin-right:3%;
+    margin-top:1%;
+    background-color: #77939B;
+}
+
+#pagecontent {
+    background-color: #A1CFDD;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+}
+
+#pagecontent h1 {
+    margin-left: 45px;
+    font-family: sans-serif;
+}
+
+#pagecontent form {
+    margin-left: 50px;
+}
