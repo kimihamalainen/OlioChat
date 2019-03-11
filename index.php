@@ -11,6 +11,7 @@ if(!empty($sessData['status']['msg'])){
      <link href="style.css" rel='stylesheet'>
 </head>
 <div class="container">
+    <div id="login">
     <?php
         if(!empty($sessData['userLoggedIn']) && !empty($sessData['userID'])){
             include 'user.php';
@@ -21,6 +22,7 @@ if(!empty($sessData['status']['msg'])){
             $conditions['return_type'] = 'single';
             $userData = $user->getRows($conditions);
     ?>
+    </div>
 
     
     <div id="navbox">
