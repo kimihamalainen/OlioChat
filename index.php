@@ -27,7 +27,7 @@ if(!empty($sessData['status']['msg'])){
         <nav>
             <div id="navbar">
                 <ul>
-                    <li id="pagelogo">Chat Room</li>
+                    <li id="pagelogo"></li>
                     
                     <li id="logoutLink"><a href="userAccount.php?logoutSubmit=1" class="logout">Logout</a></li>
                 </ul>
@@ -36,7 +36,7 @@ if(!empty($sessData['status']['msg'])){
         
     </div>
     <div id="pagecontent">
-    <h1>Welcome <?php echo $userData['first_name']; ?> </h1>
+    <h3>Welcome <?php echo $userData['first_name']; ?> </h3>
     <?php
     include("Chat/model1_chat.php");
     include("Chat/control_chat.php");

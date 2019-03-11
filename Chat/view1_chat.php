@@ -13,6 +13,7 @@
       <input type="submit" value="Lähetä">
     </form>
     </section>
+    <div id="chatbox">
 	<?php
 	// tämä on käyttöliittymä  ja näkymä tietoihin 	
     if (empty($this->viestit)) {
@@ -26,5 +27,6 @@
         }
     }
     ?>
+    </div>
   </body>
 </html>
