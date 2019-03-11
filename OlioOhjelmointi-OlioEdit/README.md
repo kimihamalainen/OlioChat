@@ -1,2 +1,0 @@
-# OlioChat
-Chat Room php
