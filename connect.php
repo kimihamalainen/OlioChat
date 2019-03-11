@@ -18,10 +18,9 @@ die('Connect Error ('. mysqli_connect_errno() .') '
 . mysqli_connect_error());
 }
 else{
-$sql = "INSERT INTO problems (name, email, phone, message)
-values ('$name','$email','$phone','$message')";
+$sql = "INSERT INTO olio_users (message_id)
+values ('$message_id')";
 if ($conn->query($sql)){
-echo "Your Message has beens sent. We will contact you soon ! <a href='http://localhost/Project_Help_page/ProjectHelpPage/userAccount.php?logoutSubmit=1'>Log out</a>";
 }
 else{
 echo "Error: ". $sql ."
