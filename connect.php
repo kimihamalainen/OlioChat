@@ -18,8 +18,8 @@ die('Connect Error ('. mysqli_connect_errno() .') '
 . mysqli_connect_error());
 }
 else{
-$sql = "INSERT INTO olio_users (message_id)
-values ('$message_id')";
+$sql = "INSERT INTO olio_users (message)
+values ('$message')";
 if ($conn->query($sql)){
 }
 else{
